@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    width: 100vw;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+     border: 2px solid white;
+     height: 360px;
+    width: 268px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+}
+.res{
+    height: 21%;
+    width: 99%;
+    border: 2px solid white;
+    border-radius:10px ;
+    margin-bottom: 10px;
+    background-color: rgb(49, 44, 44);
+     overflow:scroll;
+     scrollbar-width: none;
+     display: flex;
+    justify-content: end;
+    align-items: center;
+} 
+.btns{
+    height:77% ;
+    width: 99%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(49, 44, 44);
+    display: flex;
+}
+.noBtn{
+    height: 99%;
+    width: 84%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.funBtn{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.funBtn button{
+    margin-bottom:15px;
+    border-radius: 50%;
+}
+.noBtn button{
+    margin: 5px;
+}
+button{
+    height: 40px;
+    width: 40px;
+   border-radius: 50%;
+   background-color: rgb(157, 160, 163);
+   border: 2px solid white;
+   box-shadow: 2px 2px 10px rgb(220, 217, 228);
+   font-size: 15px;
+   font-weight: 700;
+}
+.res{
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+}
